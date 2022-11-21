@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Landing Page</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@400;500;600&family=Sen:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-[#E5E5E5] m-0 p-0  ">
+  <div class="container justify-center bg-primary  mx-auto py-0 px-[135px] ">
+        <header class=" h-[720px] py-[20px] mb-[120px]">
+            <nav class="flex justify-between xl:flex-row items-center">
+
+                <div class="nav-left flex items-center ">
+                    <a class="logo flex align-center mr-[32px] no-underline" href="index.html">
+                        <img class="w-[42px]" src="./images/logo.png" alt="">
+                        <span class="color-darkGray font-bold font-[Sen] justify-center align-center text-[20px] leading-[42px] ml-[10px]">Salty</span>
+                    </a>
+                    <ul class="flex list-none m-0 p-0 gap-9 lg:mr-auto lg:ml-4 md:py-1 lg:pl-4">
+                        <li class="ml-[36px]"><a class="text-darkBlue font-normal font-[Poppins] text-[16px] hover:border-b-2 hover:border-orange1 no-underline" href="#">Home</a></li>
+                        <li class="ml-[36px]"><a class="text-darkBlue font-normal font-[Poppins] text-[16px] hover:border-b-2 hover:border-orange1 no-underline" href="#">About us</a></li>
+                        <li class="ml-[36px]"><a class="text-darkBlue font-normal font-[Poppins] text-[16px] hover:border-b-2 hover:border-orange1 no-underline" href="#">Destinations</a></li>
+                        <li class="ml-[36px]"><a class="text-darkBlue font-normal font-[Poppins] text-[16px] hover:border-b-2 hover:border-orange1 no-underline" href="#">Tours</a></li>
+                        <li class="ml-[36px]"><a class="text-darkBlue font-normal font-[Poppins] text-[16px] hover:border-b-2 hover:border-orange1 no-underline" href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="nav-right flex items-center">
+                    <button class=" h-[54px]  border-solid border-[1.4px] border-orange1 rounded-full  cursor-pointer ">
+                        
+                        <div class="px-[34px] flex items-center justify-center">
+                            <a class="bookBtn text-[16px] text-center font-medium font-[Poppins] no-underline text-orange1 mr-[6px]" href="#">Book Now</a>
+                            <svg class="" width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 8.45744L4.04598 10.2128L13.4253 2.87235L6.06897 11.1702V15L8.82758 11.9681L13.4253 13.5638L16 0L0 8.45744Z" fill="#F66F4D"/>
+                            </svg>  
+                        </div>
+                    </button>
+                </div>
+            </nav>
+
+            <div class="section flex items-center justify-between gap-[60px]">
+                <div class="content w-[50%] ">
+                    <h1 class="font-bold font-[Sen] text-[84px] leading-[86px] mb-[24px] mt-[108px] text-darkGray">Discover the Best Lovely Places</h1>
+                    <p class="font-normal font-[Inter] text-[18px] leading-[28px] mb-[40px] text-semiGray">Plan and book your perfect trip with expert advice, travel tips, destination information and
+                        inspiration from us.</p>
+
+                    <div class="bookingCard flex items-center m-w-[500px] m-h-[76px] overflow-hidden rounded-full py-[16px] pr-[20px] pl-26px  bg-white">
+                        <div class="where flex flex-col flex-1 ml-[28px] pr-[34px] justify-center items-start border-r-4 border-[#EAEAEB] ">
+                            <div class="flex justify-between items-end">
+                                <div>
+                                    <h2 class="font-medium  font-[Inter] text-[18px] text-darkGray  m-0 mb-[8px]">Where</h2>
+                                    <p class="font-normal font-[Inter] text-[12px] text-semiGray m-0">Center Point, Lo...</p>  
+                                </div>
+                                <div class="ml-[26px]">
+                                    <svg width="9" height="13" viewBox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9 4.55C9 3.95249 8.8836 3.36082 8.65746 2.80879C8.43131 2.25676 8.09984 1.75517 7.68198 1.33266C7.26412 0.910158 6.76804 0.575007 6.22208 0.346348C5.67611 0.117689 5.09095 0 4.5 0C3.90905 0 3.32389 0.117689 2.77792 0.346348C2.23196 0.575007 1.73588 0.910158 1.31802 1.33266C0.900156 1.75517 0.568688 2.25676 0.342542 2.80879C0.116396 3.36082 -8.80582e-09 3.95249 0 4.55C0 5.45155 0.263571 6.29005 0.710357 6.99725H0.705214C2.22236 9.399 4.5 13 4.5 13L8.29479 6.99725H8.29029C8.75341 6.26689 8.99971 5.41758 9 4.55ZM4.5 6.5C3.98851 6.5 3.49797 6.29455 3.13629 5.92886C2.77462 5.56316 2.57143 5.06717 2.57143 4.55C2.57143 4.03283 2.77462 3.53684 3.13629 3.17114C3.49797 2.80545 3.98851 2.6 4.5 2.6C5.01149 2.6 5.50203 2.80545 5.86371 3.17114C6.22538 3.53684 6.42857 4.03283 6.42857 4.55C6.42857 5.06717 6.22538 5.56316 5.86371 5.92886C5.50203 6.29455 5.01149 6.5 4.5 6.5Z" fill="#F66F4D"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="date flex-1 ml-[38px] mr-[20px] justify-between">
+                            <div class="flex  items-end">
+                                <div>
+                                    <h2 class="font-medium  font-[Inter] text-[18px] text-darkGray  m-0 mb-[8px]">Date</h2>
+                                    <p class="font-normal font-[Inter] text-[12px] text-semiGray m-0">09th March,2021</p>  
+                                </div>
+                                <div class="ml-[26px]">
+                                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5.23656 5.16263V9.49649H4.68812V5.75088H4.67838C4.44356 5.87843 3.96094 6.17339 3.65625 6.38217V5.81748C3.9979 5.57766 4.3539 5.35896 4.72225 5.16263H5.23656Z" fill="#F66F4D"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5855 9.57856C6.68444 9.57856 6.24 8.9562 6.20182 8.43618H6.75756C6.79169 8.7368 7.07119 9.10244 7.61068 9.10244C8.29644 9.10244 8.66775 8.41342 8.671 7.34419H8.64907C8.52475 7.68056 8.1315 7.98605 7.52538 7.98605C6.83313 7.98605 6.16362 7.49043 6.16362 6.54795C6.16362 5.62412 6.87131 5.07812 7.62369 5.07812C8.57594 5.07812 9.2105 5.67451 9.2105 7.2459C9.2105 8.71246 8.60763 9.57856 7.5855 9.57856ZM7.63913 7.51235C8.14694 7.51235 8.60112 7.11914 8.60112 6.55361C8.60112 5.87763 8.17294 5.55425 7.65863 5.55425C7.1825 5.55425 6.70963 5.86871 6.70963 6.53739C6.70963 7.20117 7.15081 7.51235 7.63913 7.51235Z" fill="#F66F4D"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.13101 0.118969C3.05483 0.0427971 2.95149 0 2.84375 0C2.73601 0 2.63267 0.0427971 2.55649 0.118969C2.4803 0.19519 2.4375 0.298489 2.4375 0.40625V0.8125H1.625C1.19402 0.8125 0.7807 0.983688 0.47595 1.28848C0.171207 1.59321 0 2.0065 0 2.4375V11.375C0 11.806 0.171207 12.2193 0.47595 12.524C0.7807 12.8288 1.19402 13 1.625 13H11.375C11.806 13 12.2193 12.8288 12.524 12.524C12.8288 12.2193 13 11.806 13 11.375V2.4375C13 2.0065 12.8288 1.59321 12.524 1.28848C12.2193 0.983688 11.806 0.8125 11.375 0.8125H10.5625V0.40625C10.5625 0.298489 10.5197 0.19519 10.4435 0.118969C10.3673 0.0427971 10.264 0 10.1562 0C10.0485 0 9.94517 0.0427971 9.86899 0.118969C9.7928 0.19519 9.75 0.298489 9.75 0.40625V0.8125H3.25V0.40625C3.25 0.298489 3.2072 0.19519 3.13101 0.118969ZM0.8125 11.375V3.25H12.1875V11.375C12.1875 11.5905 12.1019 11.7972 11.9495 11.9495C11.7971 12.1019 11.5905 12.1875 11.375 12.1875H1.625C1.40951 12.1875 1.20285 12.1019 1.05048 11.9495C0.8981 11.7972 0.8125 11.5905 0.8125 11.375Z" fill="#F66F4D"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="search flex items-center justify-center w-[54px] h-[54px]  text-white  bg-orange1 rounded-full cursor-pointer">
+                            <i class="fas fa-search  m-[16px] flex justify-center items-center text-center"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="img w-[50%]">
+                    <img class="w-[100%]" src="./images/bannerHeader.png" alt="">
+                </div>
+            </div>
+        </header>
+
+        <section class="categories max-h-[542px] mb-[140px]">
+            <div class="title flex items-center justify-between">
+                <h1 class="font-semibold font-[Inter] text-[54px] text-darkGray m-0 mt-[19px] mb-24px">Categories</h1>
+                <div class="buttonSlide flex justify-between">`
+                    <a class="prevBtn mr-[16px]  flex justify-center items-center  border-solid border-[1px] hover:bg-darkGray hover:text-white rounded-full m-10px  border-semiGray w-[40px] h-[40px]" href="#">
+                        <i class="fas fa-chevron-left "></i>
+                    </a>
+                    <a class="nextBtn flex justify-center items-center border-solid border-[1px]  hover:bg-darkGray hover:text-white  rounded-full m-10px  border-semiGray w-[40px] h-[40px]" href="#">
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="font-normal font-[Inter] max-w-[370px] text-[16px] text-semiGray m-0 mb-[60px]">Here are lots of interesting destinations to visit,
+                but don't be confused-they're already grouped by
+                category.
+            </p>
+
+            <div class="cards flex justify-between gap-[30px]">
+
+                <div class="card relative flex flex-col items-center">
+                    <div class="img w-[100%]">
+                        <img class="w[100%] max-w-[170px] max-h-[230px] rounded-[85px]" src="./images/category1.png" alt="">
+                    </div>
+
+                    <div class="absolute flex justify-center left-[57px] top-[104px] items w-[56px] h-[22px] z-1 " >
+                        <span class="text-[20px] leading-[22px] text-white font-medium font-[Inter] items-center ">Visite</span>
+                    </div>
+
+                    <div class="content mt-[18px]">
+                        <h2 class="font-medium font-[Inter] text-[26px] leading-[26px] text-darkGray m-0">Beach</h2>
+                    </div>
+                </div>
+
+                <div class="card flex flex-col items-center">
+                    <div class="img w-[100%]">
+                        <img class="w[100%] max-w-[170px] max-h-[230px] rounded-[85px]" src="./images/category2.png" alt="">
+                    </div>
+                    <div class="content mt-[18px]">
+                        <h2 class="font-medium font-[Inter] text-[26px] leading-[26px] text-darkGray m-0">Desert</h2>
+                    </div>
+                </div>
+
+                <div class="card flex flex-col items-center">
+                    <div class="img w-[100%]">
+                        <img class="w[100%] max-w-[170px] max-h-[230px] rounded-[85px]" src="./images/category3.png" alt="">
+                    </div>
+                    <div class="content mt-[18px]">
+                        <h2 class="font-medium font-[Inter] text-[26px] leading-[26px] text-darkGray m-0">Mountain</h2>
+                    </div>
+                </div>
+
+                <div class="card flex flex-col items-center">
+                    <div class="img w-[100%]">
+                        <img class="w[100%] max-w-[170px] max-h-[230px] rounded-[85px]" src="./images/category4.png" alt="">
+                    </div>
+                    <div class="content mt-[18px]">
+                        <h2 class="font-medium font-[Inter] text-[26px] leading-[26px] text-darkGray m-0">Temple</h2>
+                    </div>
+                </div>
+                
+                
+                <div class="card flex flex-col items-center">
+                    <div class="img w-[100%]">
+                        <img class="w[100%] max-w-[170px] max-h-[230px] rounded-[85px]" src="./images/category5.png" alt="">
+                    </div>
+                    <div class="content mt-[18px]">
+                        <h2 class="font-medium font-[Inter] text-[26px] leading-[26px] text-darkGray m-0">Tower</h2>
+                    </div>
+                </div>
+
+                <div class="card flex flex-col items-center">
+                    <div class="img w-[100%]">
+                        <img class="w[100%] max-w-[170px] max-h-[230px] rounded-[85px]" src="./images/category6.png" alt="">
+                    </div>
+                    <div class="content mt-[18px]">
+                        <h2 class="font-medium font-[Inter] text-[26px] leading-[26px] text-darkGray m-0">Pyramid</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="ourExperience max-h-[682px] flex gap-[80px] mb-[150px]">
+            <div class="img w-[50%] my-[50px]">
+                <img class="w-[100%]" src="./images/banner2.png" alt="">
+            </div>
+            <div class="content w-[50%] mt-[110px] mb-[58px]">
+                <h3 class="font-semibold font-[Inter] text-[20px] leading-[20px] text-orange1 m-0 mb-[20px]">Our Experience</h3>
+                <h1 class="font-semibold font-[Inter] text-[56px] leading-[66px] text-darkGray m-0 mb-[40px]">Our Stories Have Adventures</h1>
+                <p class="font-normal font-[Inter] text-[16px] leading-[26px] text-semiGray m-0 mb-[40px]">We are experienced in bringing adventures to stay their journey, with all outdoor destinations in the
+                    world as our
+                    specialties. Start your adventure now! Nature has already called you!</p>
+                <div class="cards flex gap-[20px]">
+                    <div class="card p-[24px] rounded[20px]">
+                        <h4 class="font-semibold font-[Inter] text-[46px] text-orange1 m-0 mb-[18px]">12K+</h4>
+                        <h5 class="font-normal font-[Inter] text-[21px] text-lightGray2 m-0">Succes Journey</h5>
+                    </div>
+                    <div class="card p-[24px] rounded[20px]">
+                        <h4 class="font-semibold font-[Inter] text-[46px] text-orange1 m-0 mb-[18px]">16+</h4>
+                        <h5 class="font-normal font-[Inter] text-[21px] text-lightGray2 m-0">Awards Winning</h5>
+                    </div>
+                    <div class="card p-[24px] rounded[20px]">
+                        <h4 class="font-semibold font-[Inter] text-[46px] text-orange1 m-0 mb-[18px]">20+</h4>
+                        <h5 class="font-normal font-[Inter] text-[21px] text-lightGray2 m-0">Years Of Experience</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="popularDestinations max-h-[707px] mb-[140px]">
+            <div class="title flex items-center justify-between">
+                <h1 class="font-semibold font-[Inter] text-[56px] leading-[66px] text-darkGray m-0 mb-[24px]" >Find Popular <br> Destination</h1>
+                <div class="buttonSlide flex justify-between">`
+                    <a class="prevBtn mr-[16px]  flex justify-center items-center  border-solid border-[1px] hover:bg-darkGray hover:text-white rounded-full m-10px  border-semiGray w-[40px] h-[40px]" href="#">
+                        <i class="fas fa-chevron-left "></i>
+                    </a>
+                    <a class="nextBtn flex justify-center items-center border-solid border-[1px]  hover:bg-darkGray hover:text-white  rounded-full m-10px  border-semiGray w-[40px] h-[40px]" href="#">
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="cards flex gap-[30px]">
+                <div class="card flex flex-col p-[12px] border-solid border-[2px] border-white rounded-[16px]">
+                    <div class="img w-[100%]">
+                        <img class="w-[100%]" src="/images/destination1.png" alt="">
+                    </div>
+                    <div class="content flex flex-col justify-between m-[12px] mt-[24px]">
+                        <h2 class="font-semibold font-[Inter]	text-[24px] leading-[24px] text-darkGray m-0">Mountain Hiking Tour</h2>
+                        <p class="font-normal font-[Inter] text-[14px] leading-[14px] text-semiGray mt-[14px]">Mountain Hiking Tour</p>
+                        <div class="priceBtn flex items-center justify-between mt-[16px]">
+                            <h3 class="font-semibold font-[Inter]	text-[24px] text-darkGray m-0">$89<span class="font-normal text-[16px] text-semiGray m-0 ml-[6px]">/Person</span></h3>
+				
+                            <button class="font-normal font-[Inter] text-[14px] text-darkGray hover:text-white border-solid border-[1px] border-darkGray hover:bg-darkGray  rounded-full py-[12px] px-[16px] cursor-pointer bg-transparent outline-none" type="submit">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="card flex flex-col p-[12px] border-solid border-[2px] border-white rounded-[16px]">
+                    <div class="img w-[100%]">
+                        <img class="w-[100%]" src="/images/destination2.png" alt="">
+                    </div>
+                    <div class="content flex flex-col justify-between m-[12px] mt-[24px]">
+                        <h2 class="font-semibold font-[Inter]	text-[24px] leading-[24px] text-darkGray m-0">Machu Picchu, Peru</h2>
+                        <p class="font-normal font-[Inter] text-[14px] text-semiGray mt-[14px]">Machu Picchu, Peru</p>
+                        <div class="priceBtn flex items-center justify-between mt-[16px]">
+                            <h3 class="font-semibold font-[Inter]	text-[24px] leading-[20px] text-darkGray m-0">$99<span class="font-normal text-[16px] leading-[20px] text-semiGray m-0 ml-[6px]">/Person</span></h3>
+				
+                            <button class="font-normal font-[Inter] text-[14px] leading-[14px] text-darkGray hover:text-white border-solid border-[1px] border-darkGray hover:bg-darkGray  rounded-full py-[12px] px-[16px] cursor-pointer bg-transparent outline-none" type="submit">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card flex flex-col p-[12px] border-solid border-[2px] border-white rounded-[16px]">
+                    <div class="img w-[100%]">
+                        <img class="w-[100%]" src="/images/destination3.png" alt="">
+                    </div>
+                    <div class="content flex flex-col justify-between m-[12px] mt-[24px]">
+                        <h2 class="font-semibold font-[Inter] text-[24px] leading-[24px] text-darkGray m-0">The Grand Canyon, Arizona</h2>
+                        <p class="font-normal font-[Inter] text-[14px] leading-[14px] text-semiGray mt-[14px]">Mountain Hiking Tour</p>
+                        <div class="priceBtn flex items-center justify-between mt-[16px]">
+                            <h3 class="font-semibold font-[Inter]	text-[24px] leading-[20px] text-darkGray m-0">$70<span class="font-normal text-[16px] leading-[20px] text-semiGray m-0 ml-[6px]">/Person</span></h3>
+				
+                            <button class="font-normal font-[Inter] text-[14px] leading-[14px] text-darkGray hover:text-white border-solid border-[1px] border-darkGray hover:bg-darkGray  rounded-full py-[12px] px-[16px] cursor-pointer bg-transparent outline-none" type="submit">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="topDestinations mb-[132px]">
+            <div class="title flex flex-col items-center mb-[50px]">
+                <h1 class="font-semibold font-[Inter] text-[56px] leading-[66px] text-darkGray m-0 mb-[16px]">Top Destinations</h1>
+                <p class="font-normal font-[Inter] text-[16px] leading-[16px] text-semiGray m-0 mb-[28px]">Sost Brilliant reasons Entrada should be your one-stop-shop!</p>
+                <div class="flex items-center justify-center gap-[14px] w-[100%]">
+                    <a class="font-normal font-[Popins] tetx-[14px] leading-[14px] py-[10px] px-[20px] border-solid border-[1px] border-darkGray rounded-full no-underline hover:bg-darkGray hover:text-white transition-all 0.3s ease-linear" href="#">London</a>
+                    <a class="font-normal font-[Popins] tetx-[14px] leading-[14px] py-[10px] px-[20px] border-solid border-[1px] border-darkGray rounded-full no-underline hover:bg-darkGray hover:text-white transition-all 0.3s ease-linear" href="#">Bangkok</a>
+                    <a class="font-normal font-[Popins] tetx-[14px] leading-[14px] py-[10px] px-[20px] border-solid border-[1px] border-darkGray rounded-full no-underline hover:bg-darkGray hover:text-white transition-all 0.3s ease-linear" href="#">England</a>
+                    <a class="font-normal font-[Popins] tetx-[14px] leading-[14px] py-[10px] px-[20px] border-solid border-[1px] border-darkGray rounded-full no-underline hover:bg-darkGray hover:text-white transition-all 0.3s ease-linear" href="#">Singapore</a>
+                    <a class="font-normal font-[Popins] tetx-[14px] leading-[14px] py-[10px] px-[20px] border-solid border-[1px] border-darkGray rounded-full no-underline hover:bg-darkGray hover:text-white transition-all 0.3s ease-linear" href="#">Italy</a>
+                </div>
+            </div>
+         
+            <div class="images w-[100%] max-w-[1200px] m-auto grid gap-x-[20px] gap-y-[24px] grid-flow-dense auto-cols-fr auto-rows-fr gap-2">
+                <div class="relative box row-span-2 col-start-3 col-span-2">
+                    <div class="absolute flex justify-center items-center left-[24px] top-[29px] w-[42px] h-[24px] z-1 rounded- rounded-[12px] bg-white hover:bg-darkGray" >
+                        <span class="text-[14px] font-medium font-[Inter] text-darkGray hover:text-white text-center my-[10px] mx-[5px]">3.5</span>
+                    </div>
+                    <img class="w-[100%] h-[100%] object-cover rounded-[20px] " src="./images/top3.png" alt="">
+                    <h1 class=" absolute text-[24px] leading-[20px] font-semibold font-[Inter] text-white  left-[24px] bottom-[48px] w-[100%] z-1">Vientam</h1>
+                    <h3 class=" absolute text-[14px] leading-[20px] font-normal font-[Inter] text-white  left-[24px] bottom-[24px] w-[100%] z-1">Worefall</h1>
+                </div>
+
+                <div class="relative box col-start-1 col-span-2">
+                    <div class="absolute flex justify-center items-center left-[24px] top-[29px] w-[42px] h-[24px] z-1 rounded- rounded-[12px] bg-white hover:bg-darkGray" >
+                        <span class="text-[14px] font-medium font-[Inter] text-darkGray hover:text-white text-center my-[10px] mx-[5px]">3.5</span>
+                    </div>
+                    <img class="w-[100%] h-[100%] object-cover rounded-[20px] " src="./images/top2.png" alt="">
+                    <h1 class=" absolute text-[24px] leading-[20px] font-semibold font-[Inter] text-white  left-[24px] bottom-[48px] w-[100%] z-1">Vientam</h1>
+                    <h3 class=" absolute text-[14px] leading-[20px] font-normal font-[Inter] text-white  left-[24px] bottom-[24px] w-[100%] z-1">Worefall</h1>
+                </div>
+                
+                <div class="relative box row-start-1 col-start-1 col-span-2">
+                    <div class="absolute flex justify-center items-center left-[24px] top-[29px] w-[42px] h-[24px] z-1 rounded- rounded-[12px] bg-white hover:bg-darkGray" >
+                        <span class="text-[14px] font-medium font-[Inter] text-darkGray hover:text-white text-center my-[10px] mx-[5px]">3.5</span>
+                    </div>
+                    <img class="w-[100%] h-[100%] object-cover rounded-[20px] " src="./images/top1.png" alt="">
+                    <h1 class=" absolute text-[24px] leading-[20px] font-semibold font-[Inter] text-white  left-[24px] bottom-[48px] w-[100%] z-1">Vientam</h1>
+                    <h3 class=" absolute text-[14px] leading-[20px] font-normal font-[Inter] text-white  left-[24px] bottom-[24px] w-[100%] z-1">Worefall</h1>
+                </div>
+
+                <div class="relative box">
+                    <div class="absolute flex justify-center items-center left-[24px] top-[29px] w-[42px] h-[24px] z-1 rounded- rounded-[12px] bg-white hover:bg-darkGray" >
+                        <span class="text-[14px] font-medium font-[Inter] text-darkGray hover:text-white text-center my-[10px] mx-[5px]">3.5</span>
+                    </div>
+                    <img class="w-[100%] h-[100%] object-cover rounded-[20px] " src="./images/top3.png" alt="">
+                    <h1 class=" absolute text-[24px] leading-[20px] font-semibold font-[Inter] text-white  left-[24px] bottom-[48px] w-[100%] z-1">Vientam</h1>
+                    <h3 class=" absolute text-[14px] leading-[20px] font-normal font-[Inter] text-white  left-[24px] bottom-[24px] w-[100%] z-1">Worefall</h1>
+                </div>
+
+                <div class="relative box">
+                    <div class="absolute flex justify-center items-center left-[24px] top-[29px] w-[42px] h-[24px] z-1 rounded- rounded-[12px] bg-white hover:bg-darkGray" >
+                        <span class="text-[14px] font-medium font-[Inter]  text-darkGray hover:text-white text-center my-[10px] mx-[5px]">3.5</span>
+                    </div>
+                    <img class="w-[100%] h-[100%] object-cover rounded-[20px] " src="./images/top5.png" alt="">
+                    <h1 class=" absolute text-[24px] leading-[20px] font-semibold font-[Inter] text-white  left-[24px] bottom-[48px] w-[100%] z-1">Vientam</h1>
+                    <h3 class=" absolute text-[14px] leading-[20px] font-normal font-[Inter] text-white  left-[24px] bottom-[24px] w-[100%] z-1">Worefall</h1>
+                </div>
+
+                <div class="relative box row-end-2 col-start-5 col-span-2">
+                    <div class="absolute flex justify-center items-center left-[24px] top-[29px] w-[42px] h-[24px] z-1 rounded- rounded-[12px] bg-white hover:bg-darkGray" >
+                        <span class="text-[14px] font-medium font-[Inter] text-darkGray hover:text-white text-center my-[10px] mx-[5px]">3.5</span>
+                    </div>
+                    <img class="w-[100%] h-[100%] object-cover rounded-[20px] " src="./images/top4.png" alt="">
+                    <h1 class=" absolute text-[24px] leading-[20px] font-semibold font-[Inter] text-white  left-[24px] bottom-[48px] w-[100%] z-1">Vientam</h1>
+                    <h3 class=" absolute text-[14px] leading-[20px] font-normal font-[Inter] text-white  left-[24px] bottom-[24px] w-[100%] z-1">Worefall</h1>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="feedback flex gap-[160px] items-center mb-[145px]">
+            <div class="img flex flex-3 ml-[100px] mt[40px]">
+                <img class="w-[100%]" src="./images/banner3.png" alt="">
+            </div>
+            <div class="content flex flex-4 flex-col">
+                <div class="decor w-[67px] h-[8px] bg-gradient-to-r from-[#FFD482] to-[#FFBE82] rounded-[4px] mb-[12px]"></div>
+                <h1 class="font-semibold font-[Inter] text-[56px] leading-[66px] text-darkGray capitalize m-0 mb-[28px]">A customer said about us:</h1>
+                <div class="comment p-[28px] bg-white rounded-[14px]">
+                    <p class="font-normal font-[Inter] text-[18px] leading-[30px] text-dsemiGray m-0 mb-[28px]">Salty helped me a lot in finding the best place for our first outdoor adventure trip. They
+                        responded
+                        very quickly and
+                        gave me a detailed account of the place—its history, as well as its best features.</p>
+                    <div class="stars flex gap-[4x] mb-[18px]">
+                        <i class="fas fa-star text-[#FFC14B] w-[12px] h-[12px] ml-1.5"></i>
+                        <i class="fas fa-star text-[#FFC14B] w-[12px] h-[12px] ml-1.5"></i>
+                        <i class="fas fa-star text-[#FFC14B] w-[12px] h-[12px] ml-1.5"></i>
+                        <i class="fas fa-star text-[#FFC14B] w-[12px] h-[12px] ml-1.5"></i>
+                        <i class="fas fa-star text-[#FFC14B] w-[12px] h-[12px] ml-1.5"></i>
+                    </div>
+                    <div class="nameBtnSlide flex items-center justify-between">
+                        <div class="info">
+                            <h3 class="font-medium font-[Inter] text-[20px] leading-[20px] text-darkGray m-0 mb-[8px]">Andrew Sarma</h3>
+                            <h4 class="font-normal font-[Inter] text-[12px] leading-[12px] text-semiGray m-0">Enterpreneur</h4>
+                        </div>
+                        <div class="buttonSlide flex justify-between">`
+                            <a class="prevBtn mr-[16px]  flex justify-center items-center  border-solid border-[1px] hover:bg-darkGray hover:text-white rounded-full m-10px  border-semiGray w-[40px] h-[40px]" href="#">
+                                <i class="fas fa-chevron-left "></i>
+                            </a>
+                            <a class="nextBtn flex justify-center items-center border-solid border-[1px]  hover:bg-darkGray hover:text-white  rounded-full m-10px  border-semiGray w-[40px] h-[40px]" href="#">
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="signup flex flex-col items-center mb-[145px]">
+            <div class="content flex flex-col items-center relative w-[100%] bg-[#FFD482] rounded-[30px] py-[75px]">
+                <h1 class="font-medium font-[Inter] text-[40px] leading-[40px] text-darkGray m-0 mb-[16px] z-10">Sign up to our newsletter</h1>
+                <p class="font-normal font-[Inter] text-[16px] leading-[26px] text-semiGray m-0 mb-[40px] w-[35%] text-center z-10">Receive latest news, update, and many other things every week.</p>
+               
+                <form class="flex items-center bg-white rounded-[12px] w-[30%] z-1" action="">
+                    <input class="w-[100%] border-none rounded-[12px] p-[24px] font-normal font-[Inter] text-[14px] leading-[14px] text-darkGray bg-white outline-none placeholder:text-semiGray" type="email" placeholder="Enter Your email address">
+                    <span class=" cursor-pointer
+                    flex items-center justify-center rounded-[12px] p-[12px] bg-orange1 text-white font-semibold mr-[10px] 
+                    border-solid border-[1 px] border-orange1 transition-all 0.3s ease 
+                    hover:border-solid  hover:border-orange1 hower: bg-white"  href="#">
+                        <i class="fas fa-paper-plane cursor-pointer"></i>
+                    </span>
+                </form>
+
+                
+                <img class="absolute top-0 left-0 w-[100%] h-[100%] object-cover object-center" src="/images/Intersect.svg" alt="">
+            </div>
+        </section>
+
+
+        <footer class="flex w-[100%] justify-between pb-[80px]">
+            <div class="contact flex flex-col mr-[270px] w-[140px]">
+                <a class="logo w-[100%] no-underline flex items-center mb-20px" href="index.html">
+                    <img class="w-[20%]" src="./images/logo.png" alt="">
+                    <span class="font-bold font-[Sen] text[20px]  ml-[10px] leading-[20px]">Salty</span>
+                </a>
+                <p class="font-normal Snter text-[16px] leading-[26px] text-semiGray m-0 mb-[40px]">Enjoy the touring with Salty</p>
+                <div class="social flex gap-[14px]">
+                    <a class="flex items-center justify-center border-solid border-[1px] rounded-full m-10px border-semiGray w-[40px] h-[40px] hover:border-orange1 hover: text transition-all 0.5s ease-in-out " href="#"><i class="fab fa-facebook-f text-semiGray text-[14px] hover:border-solid border[1px] hover:border-orange1 hover:text-orange1"></i> </a>
+                    <a class="flex items-center justify-center border-solid border-[1px] rounded-full m-10px border-semiGray w-[40px] h-[40px]  hover:border-orange1 hover: text transition-all 0.5s ease-in-out" href="#"> <i class="fab fa-instagram  text-semiGray text-[14px] hover:border-solid border[1px] hover:border-orange1 hover:text-orange1"></i></a>
+                    <a class="flex items-center justify-center border-solid border-[1px] rounded-full m-10px border-semiGray w-[40px] h-[40px]  hover:border-orange1 hover: text transition-all 0.5s ease-in-out" href="#"> <i class="fab fa-twitter    text-semiGray text-[14px] hover:border-solid border[1px] hover:border-orange1 hover:text-orange1"></i></a>
+                </div>
+            </div>
+
+            
+            <div class="itemFooter flex flex-col mr-[60px]">
+                <h3 class="font-medium font-[Inter] text-[20px] leading-[18px] text-darkGray m-0 mb-[20px]">Resources</h3>
+                <ul class="flex flex-col gap-[20px] m-0 p-0 list-none">
+                    <li><a class="font-normal font-[Inter] text-[16px] leading-[36px] text-semiGray no-underline transition-all 0.5s ease-in-out hover:text-orange1" href="#">Download</a></li>
+                    <li><a class="font-normal font-[Inter] text-[16px] leading-[36px] text-semiGray no-underline transition-all 0.5s ease-in-out hover:text-orange1" href="#">Help Center</a></li>
+                    <li><a class="font-normal font-[Inter] text-[16px] leading-[36px] text-semiGray no-underline transition-all 0.5s ease-in-out hover:text-orange1" href="#">Guide Book</a></li>
+                    <li><a class="font-normal font-[Inter] text-[16px] leading-[36px] text-semiGray no-underline transition-all 0.5s ease-in-out hover:text-orange1" href="#">App Directory</a></li>
+                </ul>
+            </div>
+
+            <div class="itemFooter flex flex-col mr-[60px]">
+                <h3 class="font-medium font-[Inter] text-[20px] leading-[18px] text-darkGray m-0 mb-[20px]">Travelers</h3>
+                <ul class="flex flex-col gap-[20px] m-0 p-0 list-none">
+                    <li><a class="font-normal font-[Inter] text-[16px] leading-[36px] text-semiGray no-underline transition-all 0.5s ease-in-out hover:text-orange1" href="#">Why Travelers</a></li>
+                    <li><a class="font-normal font-[Inter] text-[16px] leading-[36px] text-semiGray no-underline transition-all 0.5s ease-in-out hover:text-orange1" href="#">Enterprise</a></li>
+                    <li><a class="font-normal font-[Inter] text-[16px] leading-[36px] text-semiGray no-underline transition-all 0.5s ease-in-out hover:text-orange1" href="#">Customer Stories</a></li>
+                    <li><a class="font-normal font-[Inter] text-[16px] leading-[36px] text-semiGray no-underline transition-all 0.5s ease-in-out hover:text-orange1" href="#">Instagram post</a></li>
+                </ul>
+            </div>
+
+            <div class="itemFooter flex flex-col mr-[60px]">
+                <h3 class="font-medium font-[Inter] text-[20px] leading-[18px] text-darkGray m-0 mb-[20px]">Company</h3>
+                <ul class="flex flex-col gap-[20px] m-0 p-0 list-none">
+                    <li><a class="font-normal font-[Inter] text-[16px] leading-[36px] text-semiGray no-underline transition-all 0.5s ease-in-out hover:text-orange1" href="#">Traveling</a></li>
+                    <li><a class="font-normal font-[Inter] text-[16px] leading-[36px] text-semiGray no-underline transition-all 0.5s ease-in-out hover:text-orange1" href="#">About Location</a></li>
+                    <li><a class="font-normal font-[Inter] text-[16px] leading-[36px] text-semiGray no-underline transition-all 0.5s ease-in-out hover:text-orange1" href="#">Success</a></li>
+                    <li><a class="font-normal font-[Inter] text-[16px] leading-[36px] text-semiGray no-underline transition-all 0.5s ease-in-out hover:text-orange1" href="#">Information</a></li>
+                </ul>
+            </div>
+
+            <div class="itemFooter flex flex-col mr-[60px]">
+                <h3 class="font-medium font-[Inter] text-[20px] leading-[18px] text-darkGray m-0 mb-[20px]">Get App</h3>
+                <ul class="flex flex-col gap-[20px] m-0 p-0 list-none">
+                    <li><a class="font-normal font-[Inter] text-[16px] leading-[36px] text-semiGray no-underline transition-all 0.5s ease-in-out hover:text-orange1" href="#">App Store</a></li>
+                    <li><a class="font-normal font-[Inter] text-[16px] leading-[36px] text-semiGray no-underline transition-all 0.5s ease-in-out hover:text-orange1" href="#">Google Play Store</a></li>
+                </ul>
+            </div>
+        </footer>
+  </div>
+  <script src="https://kit.fontawesome.com/8a4ac71c6d.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

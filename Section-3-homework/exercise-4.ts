@@ -29,6 +29,10 @@ class Collection <T> {
     this.elements = elements
   }
 
+  // constructor (elements:T[]= []) {
+  //   this.elements = elements
+  // }
+
   get () :T[] {
     return this.elements;
   }
